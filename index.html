@@ -1,58 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Somatome Goi</title>
 
     <!-- CSS only -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
+            crossorigin="anonymous"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+            rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <select class="form-select mb-3" onclick="setWeekDay(this)">
-        <option selected disabled value="null">第一週</option>
+    <link href="./css/style.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container">
+    <select class="form-select mb-3" onclick="setWeekDay(this)">
+        <option disabled selected value="null">第一週</option>
         <option value="11">１日目</option>
         <option value="12">２日目</option>
         <option value="13">３日目</option>
         <option value="14">４日目</option>
         <option value="15">５日目</option>
         <option value="16">６日目</option>
-      </select>
-      <select class="form-select mb-3" onclick="setWeekDay(this)">
-        <option selected disabled value="null">第二週</option>
+    </select>
+    <select class="form-select mb-3" onclick="setWeekDay(this)">
+        <option disabled selected value="null">第二週</option>
         <option value="21">１日目</option>
         <option value="22">２日目</option>
         <option value="23">３日目</option>
         <option value="24">４日目</option>
         <option value="25">５日目</option>
         <option value="26">６日目</option>
-      </select>
-      <select class="form-select mb-3" onclick="setWeekDay(this)">
-        <option selected disabled value="null">第三週</option>
+    </select>
+    <select class="form-select mb-3" onclick="setWeekDay(this)">
+        <option disabled selected value="null">第三週</option>
         <option value="31">１日目</option>
         <option value="32">２日目</option>
         <option value="33">３日目</option>
         <option value="34">４日目</option>
         <option value="35">５日目</option>
         <option value="36">６日目</option>
-      </select>
-    </div>
+    </select>
+    <select class="form-select mb-3" onclick="setWeekDay(this)">
+        <option disabled selected value="null">第四週</option>
+        <option value="41">１日目</option>
+        <option value="42">２日目</option>
+        <option value="43">３日目</option>
+        <option value="44">４日目</option>
+        <option value="45">５日目</option>
+        <option value="46">６日目</option>
+    </select>
+</div>
 
-    <script src="./js/app.js"></script>
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+<script src="./js/app.js"></script>
+<!-- JavaScript Bundle with Popper -->
+<script
+        crossorigin="anonymous"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+></script>
+</body>
 </html>
