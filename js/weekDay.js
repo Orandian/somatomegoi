@@ -789,6 +789,57 @@ let foursix = [
     'messages have been sent'
 ]
 
+let fiveone = [
+    'the eldest son',
+    'the eldest daughter',
+    'the second son',
+    'the second daughter',
+    'the third son',
+    'the youngest child',
+    'an uncle',
+    'an aunt',
+    "one's colleague",
+    "one's boss",
+    "one's subordinate",
+    'someone who has been in the company longer than you are',
+    'someone who joined the company after you',
+    'a department manager',
+    'a section chief',
+    'a university student',
+    'a (senior) high school student',
+    'a junior high school student',
+    'a primary school student',
+    'an office worker',
+    'a businessman',
+    'a housewife/homemaker',
+    'a teacher',
+    'the youngest of the six brothers',
+    'the oldest of the three sisters',
+    'a relative (2)',
+    'a grandchild',
+    'a nephew',
+    'a niece',
+    'a cousin',
+    'an only child',
+    'an only son',
+    'an only daughter'
+]
+
+let fivetwo = [
+    'Where are you from? I am from the UK.',
+    'Where do you live? I live near here.',
+    'Thank you for your kindness. Please do not mention it./You are my welcome./Not at all',
+    'Please come in. Thank you.',
+    'Please have a seat here.',
+    "I will bring some tea. You really don't need to.",
+    'Please go ahead and serve yourselves. Thank you. (I will have some)',
+    "It's been a long time since we saw each other. How have you been? Quite well, thank you.",
+    "I have heard that Tanaka-san's husband passed away. Is that right? I am really sorry to hear that.",
+    'I am looking forward to seeing you.',
+    "(I'll be off, then) See you tomorrow! Good night! (Thanks for your hard work)",
+    'Goodbye! You must be tired. Good night!'
+]
+
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -931,6 +982,16 @@ function init() {
             week.innerHTML = "第四週";
             day.innerHTML = "６日目";
             weekDay(foursix);
+            break;
+        case "51":
+            week.innerHTML = "第五週";
+            day.innerHTML = "１日目";
+            weekDay(fiveone);
+            break;
+        case "52":
+            week.innerHTML = "第五週";
+            day.innerHTML = "２日目";
+            weekDay(fivetwo);
             break;
     }
 }
