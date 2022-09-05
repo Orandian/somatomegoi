@@ -840,6 +840,154 @@ let fivetwo = [
     'Goodbye! You must be tired. Good night!'
 ]
 
+let fivethree = [
+    'smart',
+    'polite',
+    'honest',
+    'to be honest (with you)',
+    'gentle',
+    'innocent',
+    'genuine opinion',
+    'cool',
+    'uncool',
+    'brave',
+    'humorous',
+    'positive',
+    'negative',
+    'self-possessed',
+    'settle down',
+    'quiet',
+    'diligent',
+    'easy-going',
+    'good-looking',
+    'beautiful woman',
+    'slim',
+    'mean',
+    'be nasty (to someone)',
+    'lie',
+    'liar',
+    'dishonest',
+    'Not fair!',
+    'impudent/insolent',
+    'persistent/pesky',
+    'warn persistently',
+    'sloppy',
+    'stingy',
+    'irresponsible',
+    'talk nonsense',
+    'Enough nonsense!'
+]
+
+let fivefour = [
+    'not feel well',
+    'feel dizzy',
+    'have a headache',
+    'have a stomachache',
+    'have a back pain',
+    'feel suffocated',
+    'be in pain',
+    'be stuffed up',
+    "blow one's nose",
+    'feel sick',
+    'vomit',
+    'have an itchy eye',
+    "rub one's eye",
+    "feel terrible because of one's cold",
+    'be allergic to ...',
+    'Patient: Thank you for your kind help',
+    'Nurse: I hope you will get well soon',
+    'see a specialist (doctor)',
+    'see the doctor',
+    'go to see a dentist',
+    'get a flu',
+    'symptoms of a sinkness',
+    'get a shot',
+    'have an operation',
+    'endure pain',
+    'suffer from a hay fever',
+    'gurgle',
+    'heal an injury',
+    'a cut/wound on the hand',
+    'get burned',
+    'be not a big deal',
+    'be still bad but better',
+    'visit a sick person'
+]
+
+let fivefive = [
+    'a cavity',
+    'a pimple',
+    'gray hair',
+    'a wrinkle',
+    '(nasal) mucus',
+    'a sigh',
+    'sigh',
+    'tears',
+    'weep',
+    'sweat (2)',
+    '(smell) sweaty',
+    'saliva',
+    'a cough',
+    'a hiccup',
+    'a sneeze',
+    'a yawn',
+    'a burp',
+    'gas',
+    'put on weight',
+    "increase one's weight",
+    'lose weight',
+    "reduce one's weight (be on diet)",
+    'snore',
+    "one's leg goes to sleep",
+    "one's body is trembling",
+    'get a stiff shoulder',
+    'fall into the habit of ...',
+    'become a habit',
+    'get stressed out',
+    'get old',
+    'nails grow',
+    'beard grows',
+    'teeth come in',
+    'lose hair',
+    'go bald',
+    "dye one's hair"
+]
+
+let fivesix = [
+    'flowers bloom',
+    'flowers fall down',
+    'a tree dies',
+    'a mountain collapses',
+    'a rugged mountain',
+    'a gentle slope',
+    'a box collapses',
+    'crush',
+    'float',
+    'sink',
+    'humid',
+    'rot',
+    'get moldy',
+    'it stinks',
+    '(something) smells',
+    'a creepy creature',
+    'a close friend',
+    'a best friend',
+    'a suspicious guy',
+    'a dreadful incident',
+    'a rusty knife',
+    'rust',
+    'sharp',
+    'blunt',
+    'a slow car',
+    'a safe place',
+    'a dim room',
+    'a glaring light',
+    'detailed manual',
+    'explain in details',
+    'a worthless novel',
+    'give a haphazard answer'
+]
+
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -992,6 +1140,26 @@ function init() {
             week.innerHTML = "第五週";
             day.innerHTML = "２日目";
             weekDay(fivetwo);
+            break;
+        case "53":
+            week.innerHTML = "第五週";
+            day.innerHTML = "３日目";
+            weekDay(fivethree);
+            break;
+        case "54":
+            week.innerHTML = "第五週";
+            day.innerHTML = "４日目";
+            weekDay(fivefour);
+            break;
+        case "55":
+            week.innerHTML = "第五週";
+            day.innerHTML = "５日目";
+            weekDay(fivefive);
+            break;
+        case "56":
+            week.innerHTML = "第五週";
+            day.innerHTML = "６日目";
+            weekDay(fivesix);
             break;
     }
 }
