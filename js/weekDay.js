@@ -1354,7 +1354,36 @@ function init() {
             day.innerHTML = "６日目";
             weekDay(fivesix);
             break;
-
+        case "61":
+            week.innerHTML = "第六週";
+            day.innerHTML = "１日目";
+            weekDay(sixone);
+            break;
+        case "62":
+            week.innerHTML = "第六週";
+            day.innerHTML = "２日目";
+            weekDay(sixtwo);
+            break;
+        case "63":
+            week.innerHTML = "第六週";
+            day.innerHTML = "３日目";
+            weekDay(sixthree);
+            break;
+        case "64":
+            week.innerHTML = "第六週";
+            day.innerHTML = "４日目";
+            weekDay(sixfour);
+            break;
+        case "65":
+            week.innerHTML = "第六週";
+            day.innerHTML = "５日目";
+            weekDay(sixfive);
+            break;
+        case "66":
+            week.innerHTML = "第六週";
+            day.innerHTML = "６日目";
+            weekDay(sixsix);
+            break;
     }
 }
 
