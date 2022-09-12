@@ -988,6 +988,199 @@ let fivesix = [
     'give a haphazard answer'
 ]
 
+let sixone = [
+    'The phone suddenly rang',
+    'cry out suddenly',
+    'all of a sudden, burst out in tears',
+    'My wound has healed at last',
+    'Our cat finally died',
+    'My efforts did not amount to anything',
+    'Finally the painting was finished',
+    'I often come to this restaurant',
+    'I slept well last night',
+    'Well done!',
+    'I generally eat out',
+    'I usually do not drunk',
+    'During the rainy season, it usually rains a lot',
+    'I go to see a movie once in a while',
+    'a pretty big house',
+    'There are quite a number of people',
+    'I quite like the house I live in',
+    'extremely cheap',
+    'The order is all messed up',
+    'The car has been totally wrecked',
+    'Please come',
+    'Please!/ I beg you',
+    'The first thing I do when I get home is to have a bath',
+    'Stop making excuses. Just study!',
+    'flowers bloom all at once',
+    'swiftly finish a pile of homework',
+    'I suddenly felt exhausted'
+]
+
+let sixtwo = [
+    'absent-mindedly forget to do the homework',
+    'be careless',
+    'I completely forget',
+    'feel disappointed that one did not pass the exam',
+    "Ah, that's exactly what I thought",
+    'Although he is eighteen, he is still a child',
+    'a matured child',
+    "Don't let it get you down",
+    'the room looks tidy and neat',
+    'feel refreshed',
+    'feel refreshed after the bath',
+    "I don't at all understand the problem",
+    'sleep tightly',
+    'give a happy smile',
+    'That boy (girl) looks just like his dad (mom)',
+    'can see the mountain clearly',
+    'have a leisurely time',
+    'relax',
+    'fold the dress neatly',
+    'show a proper attitude',
+    'it suddenly occurs to me',
+    'intentionally lose',
+    'I am relieved that my mother has recovered from illness',
+    'bear patiently',
+    'stare at...',
+    'clean quickly',
+    'quietly come close'
+]
+
+let sixthree = [
+    'my heart is pounding',
+    'feel nervous during the interview',
+    'feel frustrated in the traffic jam',
+    'answer the questions promptly and clearly',
+    'She is brisk and pleasant',
+    'murmur at...',
+    'he is mumbling to himself',
+    'a wired guy is wandering around',
+    'wander around the downtown',
+    'dangle',
+    'I barely made the last train',
+    'I submitted an application just before the deadline',
+    'polish the shoes well',
+    'the train is moving very slowly',
+    'let out secrets with no hesitation',
+    'Tanaka-san speaks fluent English',
+    'a thin piece of paper',
+    'I am famished',
+    'the cost of living will go up more and more',
+    'it is getting cold',
+    'his Japanese is improving rapidly',
+    'Shall we start?',
+    'He was always a timid person',
+    'Even though my watch broke, is doest matter because I didnt pay much for it in the first place',
+    'I happened to run into a friend from (senior) high school',
+    'the result of the exam was so-so',
+    'various products'
+]
+
+let sixfour = [
+    'meet an ideal person',
+    'an encounter',
+    'meet/greet the guests',
+    'meeting/greeting someone',
+    'see off',
+    'send-off',
+    'look up at the sky',
+    'look down at the street',
+    'suddenly stop walking',
+    'get up off the couch',
+    'walk by the temple',
+    'pass by the post office',
+    'talk to the person sitting next to me',
+    'discuss with Tanaka-san',
+    'discussion',
+    'get to know Nakamura-san',
+    'acquaintance',
+    'meet up at the station',
+    'meeting',
+    'inquire by phone',
+    'inquiry',
+    'ask a travel agent to arrange a trip',
+    'applications',
+    'no longer accept applications',
+    'deadline',
+    'accept applications',
+    'reception',
+    'receive a parcel',
+    'receipt',
+    'change the battery',
+    'cancel a reservation',
+    'cancellation',
+    'take out the CD',
+    'a kid runs out on the street',
+    'jump into the swimming pool'
+]
+
+let sixfive = [
+    'graduate from university',
+    'attend a meeting',
+    'be served a meal',
+    'come to a conclusion',
+    'feel energetic',
+    'come up with a new product',
+    'buds come out',
+    'get a bonus',
+    'find cockroaches',
+    'have your name appear in a newspaper',
+    'come to the station after turning a corner',
+    'steal a wallet',
+    'go back to get your wallet',
+    'get a drivers license',
+    'make a copy',
+    'subscribe to a newspaper',
+    'get some sleep',
+    'take attendance',
+    'contact',
+    'remove the pain',
+    'have a button come off',
+    'hire a new employee',
+    'be locked',
+    'get sick',
+    'go to see a doctor',
+    'button up',
+    'play a CD',
+    'put a blanket on',
+    'say hi',
+    'make someone worry'
+]
+
+let sixsix = [
+    'leave the sea',
+    'time passes',
+    'a rumor spreads',
+    'make a plan',
+    'make a noise',
+    'rain stops',
+    'Please come in',
+    'get out of the bath',
+    'prices go up',
+    'be effective',
+    'get nervous from giving a speech for the first time',
+    'give an example',
+    'have a wedding',
+    'ceremony',
+    'fever goes down',
+    'move back to the yellow line',
+    'loose ones reputation',
+    'curtain hang (on the curtain rod)',
+    'carry a shopping bag',
+    'indent (the first line of a paragraph) one space',
+    'turn down the volume of the TV',
+    'get mud on...',
+    'damage...',
+    'get a hold of...',
+    'be able to arrange',
+    'get a bonus',
+    'mark...',
+    'light a cigarette',
+    'keep a diary'
+]
+
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -1160,6 +1353,36 @@ function init() {
             week.innerHTML = "第五週";
             day.innerHTML = "６日目";
             weekDay(fivesix);
+            break;
+        case "61":
+            week.innerHTML = "第六週";
+            day.innerHTML = "１日目";
+            weekDay(sixone);
+            break;
+        case "62":
+            week.innerHTML = "第六週";
+            day.innerHTML = "２日目";
+            weekDay(sixtwo);
+            break;
+        case "63":
+            week.innerHTML = "第六週";
+            day.innerHTML = "３日目";
+            weekDay(sixthree);
+            break;
+        case "64":
+            week.innerHTML = "第六週";
+            day.innerHTML = "４日目";
+            weekDay(sixfour);
+            break;
+        case "65":
+            week.innerHTML = "第六週";
+            day.innerHTML = "５日目";
+            weekDay(sixfive);
+            break;
+        case "66":
+            week.innerHTML = "第六週";
+            day.innerHTML = "６日目";
+            weekDay(sixsix);
             break;
     }
 }
